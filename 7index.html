@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omkar Ingle | Personal Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">O.I.</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#photography">Photography</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#photography">Photography</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <section id="hero" class="hero">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content fade-in">
+            <p class="greeting">Hello, I am</p>
+            <h1 class="name">Omkar Ingle</h1>
+            <h2 class="title">IT Engineering Student | Web Developer | Creative Technologist</h2>
+            <p class="tagline">"I build intelligent web experiences combining technology, design, and creativity."</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image fade-in left">
+                    <div class="img-wrapper">
+                        <img src="WhatsApp Image 2026-02-23 at 8.12.24 PM.jpeg" alt="Omkar Ingle">
+                    </div>
+                </div>
+                <div class="about-text fade-in right">
+                    <h3>Hi, I'm Omkar.</h3>
+                    <p>I’m an Information Technology student passionate about building modern web experiences and experimenting with AI-powered tools.</p>
+                    <p>I enjoy combining technology, design, and creativity to build intuitive and visually engaging digital products.</p>
+                    <div class="exploring-box">
+                        <h4>Currently exploring:</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-code"></i> Web Development with AI</li>
+                            <li><i class="fa-solid fa-pen-nib"></i> Modern UI/UX Design</li>
+                            <li><i class="fa-brands fa-python"></i> Python Programming</li>
+                            <li><i class="fa-solid fa-microchip"></i> Creative Technology</li>
+                            <li><i class="fa-solid fa-camera-retro"></i> Cinematography & Photography</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title fade-in">Skills</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-card fade-in">
+                    <h3>Programming</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Python</span></div>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>C</span></div>
+                        <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in" style="transition-delay: 0.1s;">
+                    <h3>Web Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>HTML & CSS</span></div>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>JavaScript</span></div>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in" style="transition-delay: 0.2s;">
+                    <h3>Design</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Graphic Design</span>
+                        <span class="tag">Digital Design</span>
+                        <span class="tag">Layout Design</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in" style="transition-delay: 0.3s;">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">MS Office</span>
+                        <span class="tag">Figma</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Selected Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <img src="Screenshot (222).png" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Created a Project on College sports website</h3>
+                        <p>Sports Website for College Event Advertisement and College sports registration SSGMCE shegaon</p>
+                        <div class="tech-stack">
+                            <span>HTML</span><span>CSS</span><span>JS</span><span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-sm primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" style="transition-delay: 0.1s;">
+                    <div class="project-img">
+                        <img src="Screenshot (244).png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Designing</h3>
+                        <p>Created a Responsice Portfolio for my projects showcasing</p>
+                        <div class="tech-stack">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-sm primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="photography" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title fade-in">Photography</h2>
+            <div class="gallery-categories fade-in">
+                <span>Nature</span>
+                <span>Architecture</span>
+                <span>Night Photography</span>
+                <span>Cinematic Shots</span>
+            </div>
+            <div class="masonry-grid fade-in">
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-472214103451-9374bd1c798e?q=80&w=600&auto=format&fit=crop" alt="Nature" onclick="openLightbox(this.src)"></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-514565131-fce0801e5785?q=80&w=600&auto=format&fit=crop" alt="Architecture" onclick="openLightbox(this.src)"></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-478860409686-2678af4943f6?q=80&w=600&auto=format&fit=crop" alt="Night" onclick="openLightbox(this.src)"></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-505322022379-7c3353ee6291?q=80&w=600&auto=format&fit=crop" alt="Cinematic" onclick="openLightbox(this.src)"></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-520645521318-f06a70fc4970?q=80&w=600&auto=format&fit=crop" alt="Nature 2" onclick="openLightbox(this.src)"></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <section id="experience" class="section">
+        <div class="container timeline-container">
+            <div class="timeline-column fade-in left">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Student Developer</h4>
+                            <h5>Self Learning & Projects</h5>
+                            <span class="date">Present</span>
+                            <p>Working on web development, design systems, and AI-assisted development tools.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-column fade-in right" id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Bachelor of Engineering</h4>
+                            <h5>Information Technology | SSGMCE Shegaon</h5>
+                            <span class="date">2025 — 2029</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Higher Secondary Certificate</h4>
+                            <h5>Rajashri Shahu Jr College</h5>
+                            <span class="date">Grade: 82%</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Secondary School Certificate</h4>
+                            <h5>Sahakar Vidya Mandir</h5>
+                            <span class="date">Grade: 91%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title fade-in">Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-card fade-in"><i class="fa-solid fa-camera"></i><h4>Photography</h4></div>
+                <div class="interest-card fade-in" style="transition-delay: 0.1s;"><i class="fa-solid fa-film"></i><h4>Cinematography</h4></div>
+                <div class="interest-card fade-in" style="transition-delay: 0.2s;"><i class="fa-solid fa-robot"></i><h4>AI Exploration</h4></div>
+                <div class="interest-card fade-in" style="transition-delay: 0.3s;"><i class="fa-solid fa-lightbulb"></i><h4>Creative Tech</h4></div>
+                <div class="interest-card fade-in" style="transition-delay: 0.4s;"><i class="fa-solid fa-layer-group"></i><h4>Design Systems</h4></div>
+                <div class="interest-card fade-in" style="transition-delay: 0.5s;"><i class="fa-solid fa-hammer"></i><h4>Building Projects</h4></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in left">
+                    <h3>Let's talk about your next project.</h3>
+                    <p>Whether you have a question, a project idea, or just want to say hi, I'll try my best to get back to you!</p>
+                    <div class="social-links">
+                        <a href="mailto:hello@example.com" class="social-btn"><i class="fa-solid fa-envelope"></i> Email</a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+                <form class="contact-form fade-in right">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-glow">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Omkar Ingle</p>
+            <p class="built-with">Built with HTML, CSS and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
